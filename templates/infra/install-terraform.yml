@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 steps:
- - task: TerraformInstaller@0
+ - task: TerraformInstaller
    displayName: 'Terraform install'
    inputs:
-     terraformVersion: $(terraform_version)
+     terraformVersion: latest
