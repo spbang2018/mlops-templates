@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 steps:
- - task: charleszipp.azure-pipelines-tasks-terraform.azure-pipelines-tasks-terraform-installer.TerraformInstaller@0
+ - task: TerraformInstaller@0
    displayName: 'Terraform install'
    inputs:
      terraformVersion: $(terraform_version)
